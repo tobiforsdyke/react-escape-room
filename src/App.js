@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Viewer } from "photo-sphere-viewer";
 import './App.css';
-// import "../node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.css";
+import "../node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.css";
 
 function App() {
   const sphereElementRef = React.createRef();
